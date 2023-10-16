@@ -1,0 +1,19 @@
+gateways:
+    local:
+        connection:
+            type: duckdb
+            database: db.db
+    snowflake:
+        connection:
+            type: snowflake
+            user: sivakar94
+            password: Oruvanoruvan94!
+            account: cy01830.eu-west-2.aws
+            database: SQL_MESH_TEST
+            warehouse: COMPUTE_WH
+            role: ACCOUNTADMIN
+
+model_defaults:
+    dialect: snowflake
+
+default_gateway: snowflake
