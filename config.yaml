@@ -3,11 +3,11 @@ gateways:
         connection:
             type: duckdb
             database: db.db
-    snowflake:
+    snowflake_db:
         connection:
             type: snowflake
-            user: sivakar94
-            password: Oruvanoruvan94!
+            user: ${{secrets.username}}
+            password: ${{secrets.password}}
             account: cy01830.eu-west-2.aws
             database: SQL_MESH_TEST
             warehouse: COMPUTE_WH
@@ -16,4 +16,4 @@ gateways:
 model_defaults:
     dialect: snowflake
 
-default_gateway: snowflake
+default_gateway: snowflake_db
