@@ -54,9 +54,9 @@ pure-eval==0.2.2
 pyarrow==10.0.1
 pycparser==2.21
 pycryptodomex==3.19.0
-#pydantic==1.10.13
-#pydantic-settings==2.0.3
-#pydantic_core==2.0.2
+pydantic==2.4.2
+pydantic-settings==2.0.3
+pydantic_core==2.10.1
 PyGithub==2.1.1
 Pygments==2.16.1
 PyJWT==2.8.0
