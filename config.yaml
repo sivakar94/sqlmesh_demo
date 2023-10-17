@@ -17,3 +17,8 @@ model_defaults:
     dialect: snowflake
 
 default_gateway: snowflake_db
+
+cicd_bot:
+    type: github
+    merge_method: squash
+    enable_deploy_command: true
