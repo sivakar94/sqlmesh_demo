@@ -6,8 +6,8 @@ gateways:
     snowflake_db:
         connection:
             type: snowflake
-            user: sivakar94
-            password: Oruvanoruvan94!
+            user: ${{secrets.user}}
+            password: ${{secrets.password}}
             account: cy01830.eu-west-2.aws
             database: SQL_MESH_TEST
             warehouse: COMPUTE_WH
@@ -22,3 +22,6 @@ cicd_bot:
     type: github
     merge_method: squash
     enable_deploy_command: true
+
+
+    
