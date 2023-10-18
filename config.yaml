@@ -6,8 +6,8 @@ gateways:
     snowflake_db:
         connection:
             type: snowflake
-            user: ************
-            password: **********
+            user: sivakar94
+            password: Oruvanoruvan94!
             account: cy01830.eu-west-2.aws
             database: SQL_MESH_TEST
             warehouse: COMPUTE_WH
