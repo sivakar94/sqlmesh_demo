@@ -6,8 +6,8 @@ gateways:
     snowflake_db:
         connection:
             type: snowflake
-            user:  ${{ env_var.user }}
-            password:  ${{ env_var.password }}
+            user:  SIVAKAR94
+            password: Ilovevarna01!
             account: cy01830.eu-west-2.aws
             database: SQL_MESH_TEST
             warehouse: COMPUTE_WH
